@@ -6,3 +6,4 @@ MAINTAINER Mickaël Cornière <mickael.corniere@gmail.com>
 RUN apt-get update && apt-get install -y \
     supervisor
 
+ENV SOCKET_SUPERVISORD=/var/run/supervisor.sock
