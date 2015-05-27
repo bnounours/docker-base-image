@@ -7,3 +7,5 @@ RUN apt-get update && apt-get install -y \
     supervisor
 
 ENV SOCKET_SUPERVISORD=/var/run/supervisor.sock
+
+RUN mkdir -p /opt/config /opt/logs/ /opt/data
